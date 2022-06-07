@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tedarikci Secimi</string>
+    <string name="sign">© Designed by Bugra Hatipoglu </string>
+    <string name="app_name_upper_case">TEDARİKÇİ \n SEÇİMİ</string>
+    <string name="main_text">Doğru tedarikçiyi doğru uygulamayla bulun! \n Haydi başlayalım!</string>
+    <string name="start">Başla</string>
+    <string name="register_header_text"><b>Merhaba!</b> \nDevam etmek için lütfen kaydolun.</string>
+    <string name="register_bottom_text">Zaten hesabınız var mı? <u>Giriş Yapın</u></string>
+    <string name="e_mail">E-mail</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="calculation_q1">Kaç adet tedarikçi bulunmaktadır?</string>
+    <string name="calculation_q2">Kaç adet kriter bulunmaktadır?</string>
+    <string name="continue_text">Devam</string>
+    <string name="calculate">Hesapla</string>
+    <string name="choice_top_text">*Lütfen kullanmak istediğiniz yöntemleri seçiniz.</string>
+    <string name="weighting"><u>Ağırlıklandırma</u></string>
+    <string name="calculation"><u>Hesaplama</u></string>
+    <string name="result">Sonuç</string>
+    <string name="result_top_text">- Hesaplanan kriter ağırlıkları</string>
+    <string name="result_bottom_text">- İdeale yakınlık sıralaması</string>
+
+</resources>

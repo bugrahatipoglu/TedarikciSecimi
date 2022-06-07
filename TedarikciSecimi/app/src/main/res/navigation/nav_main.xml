@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/teaserFragment">
+    <fragment
+        android:id="@+id/teaserFragment"
+        android:name="com.example.tedarikcisecimi.TeaserFragment"
+        android:label="TeaserFragment" >
+        <action
+            android:id="@+id/action_teaserFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.tedarikcisecimi.RegisterFragment"
+        android:label="RegisterFragment" >
+        <action
+            android:id="@+id/action_registerFragment_to_calculationFragment"
+            app:destination="@id/calculationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calculationFragment"
+        android:name="com.example.tedarikcisecimi.CalculationFragment"
+        android:label="CalculationFragment" >
+        <action
+            android:id="@+id/action_calculationFragment_to_tableFragment"
+            app:destination="@id/tableFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tableFragment"
+        android:name="com.example.tedarikcisecimi.TableFragment"
+        android:label="TableFragment" >
+        <action
+            android:id="@+id/action_tableFragment_to_choiceFragment"
+            app:destination="@id/choiceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/choiceFragment"
+        android:name="com.example.tedarikcisecimi.ChoiceFragment"
+        android:label="ChoiceFragment" >
+        <action
+            android:id="@+id/action_choiceFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.tedarikcisecimi.ResultFragment"
+        android:label="ResultFragment" />
+</navigation>

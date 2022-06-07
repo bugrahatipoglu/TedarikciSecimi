@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TedarikciSecimi" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/orange_light</item>
+        <item name="colorSurface">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
